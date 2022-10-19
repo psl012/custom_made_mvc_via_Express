@@ -1,0 +1,39 @@
+div{
+    display: inline-block;
+    border: 1px solid black;
+}
+#wrapper{
+    padding: 30px;
+}
+#interface{
+    padding: 20px;
+    min-height: 800px;
+}
+    #interface label{
+        display: block;
+        margin-bottom: 10px;
+    }
+    #interface input[type=submit]{
+       margin: 10px 0px 0px 130px;
+    }
+#results{
+    vertical-align: top;
+    margin-left: 15px;
+    min-height: 800px;
+    width: 945px;
+    padding: 20px;
+}
+    #results .player{
+        display: inline-block;
+        text-align: center;
+        padding: 15px;
+        margin: 7px;
+    }
+    #results .player img{
+        width: 120px;
+        height: 120px;
+        margin-bottom: 5px;
+    }
+    #results .player p{
+        margin: 0px;
+    }
